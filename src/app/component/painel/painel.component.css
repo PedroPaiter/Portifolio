@@ -1,0 +1,22 @@
+.painel{
+    max-height: 480px;
+    max-width: 880px;
+    overflow: auto;
+    border: 2px solid #b4b3b39d;
+    border-radius: 5px;
+    
+}
+img{
+    height: auto;
+    width: 840px;
+   
+}
+
+::-webkit-scrollbar{
+    background-color: #ffffff9d;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #8c8b8b9d;
+    border-radius: 30px;
+}

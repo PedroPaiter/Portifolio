@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.center-content{
+    width: 400px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
