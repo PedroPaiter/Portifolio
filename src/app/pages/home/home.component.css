@@ -6,7 +6,6 @@ main{
 
 .info{
     display: flex;
-    flex-direction: column;
     gap: 60px;
 }
 
@@ -58,4 +57,18 @@ main{
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
 }

@@ -4,12 +4,20 @@
     overflow: auto;
     border: 2px solid #b4b3b39d;
     border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     
 }
 img{
     height: auto;
-    width: 840px;
+    width: 737px;
    
+}
+
+.painel:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow-y: visible;
 }
 
 ::-webkit-scrollbar{
