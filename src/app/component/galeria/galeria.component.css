@@ -1,0 +1,29 @@
+::ng-deep .p-galleria .p-galleria-item-nav{
+    color: black;
+}
+::ng-deep .p-galleria {
+    overflow-y: auto !important;
+    max-height: 500px !important;
+  }
+  
+  ::ng-deep .p-galleria::-webkit-scrollbar {
+    width: 8px !important;
+    background-color: #ffffff9d !important;
+  }
+  
+  ::ng-deep .p-galleria::-webkit-scrollbar-thumb {
+    background-color: #8c8b8b9d !important;
+    border-radius: 10px !important;
+  }
+  
+  ::ng-deep .p-galleria::-webkit-scrollbar-thumb:hover {
+    background-color: #555 !important;
+  }
+  
+  ::ng-deep .p-galleria  button {
+    position: absolute;
+    
+    
+  }
+
+::ng-deep img { object-fit: fill; }
