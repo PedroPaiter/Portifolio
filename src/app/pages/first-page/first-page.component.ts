@@ -13,8 +13,7 @@ import { GaleriaComponent } from '../../component/galeria/galeria.component';
 })
 export class FirstPageComponent {
   images = ['../../../assets/img/meinclui/home.png', '../../../assets/img/meinclui/cadastro_usuario.png', '../../../assets/img/meinclui/login.png', '../../../assets/img/meinclui/usuarios.png', '../../../assets/img/meinclui/perfil_usuario.png','../../../assets/img/meinclui/pesquisa.png'
-  ,'../../../assets/img/meinclui/tela_estabelecimento.png','../../../assets/img/meinclui/questionario.png','../../../assets/img/meinclui/comentarios.png'
-  ]
+  ,'../../../assets/img/meinclui/tela_estabelecimentos.png','../../../assets/img/meinclui/questionario.png','../../../assets/img/meinclui/comentarios.png']
 
 
 }
