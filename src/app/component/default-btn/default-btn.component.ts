@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-default-btn',
@@ -14,4 +15,5 @@ export class DefaultBtnComponent {
   click() {
     this.onClick.emit();
   }
+  
 }

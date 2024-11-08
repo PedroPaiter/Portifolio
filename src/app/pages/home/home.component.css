@@ -11,6 +11,7 @@ main{
 
 .up-inf{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 35px;
     height: 180px;
@@ -27,11 +28,14 @@ main{
 
 .bottom-inf {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 30px;
 }
 
 .bigger{
+    display: flex;
+    justify-content: center;
     font-size: x-large;
 }
 
@@ -40,12 +44,18 @@ main{
 }
 .btns {
     display: flex;
+    justify-content: center;
     gap: 25px;
+}
+
+.resumo{
+    text-align: center;
 }
 
 .form{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 25px;
 }
 

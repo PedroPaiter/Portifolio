@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-painel',
@@ -9,4 +9,10 @@ import { Component, Input } from '@angular/core';
 })
 export class PainelComponent {  
   @Input() root: string = '';
+  @Output() onClick = new EventEmitter<void>();
+
+  click() {
+    this.onClick.emit();
+  }
+  
 }
