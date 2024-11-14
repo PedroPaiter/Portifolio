@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    background-color: rgb(245, 247, 247)
+}
+
+
+.center-content{
+    width: 400px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}

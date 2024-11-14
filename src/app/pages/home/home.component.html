@@ -1,0 +1,35 @@
+<main>
+    <div class="info">        
+            <div class="left-side">
+            <div class="up-inf">
+                <img src="../../../assets/img/foto perfil.jpeg">
+                <h3>Pedro H Paiter</h3>
+            </div>
+        <div class="bottom-inf">
+            <p class="bigger">Programador Jr</p>
+            <p class="resumo">Estudante de programação a procura de experiencia e aprendizado.</p>
+            <div class="btns">
+                <app-default-btn title="Linkedin" (onClick)="redirecionarLinkedin()" />
+                <app-default-btn title="Email" (onClick)="redirecionarEmail()"/>
+                <app-default-btn title="Contato" (onClick)="redirecionarContato()"/>                
+            </div>
+        </div>     
+        
+        <div class="form">
+            <p>Formações</p>
+            <div class="boxs">
+                <app-text-box title="Entra21" year="2023-2024" content="Turma de Angular com duração de 8 meses. No meu grupo de projetos, atuei como líder e fui responsável pela construção das telas."/>
+                <app-text-box title="Jovem Programador" year="2023" content="Turma de Java com duração de 9 meses. No meu grupo, fiquei responsável por auxiliar os demais tanto no front-end quanto no back-end."/>
+                <app-text-box title="SESC" year="2018-2023" content="Durante este curso abrangente de inglês avançado, aprimorei minhas habilidades linguísticas em todas as áreas fundamentais, incluindo conversação, compreensão auditiva, leitura e redação. "/>
+            </div>
+            <app-default-btn title="Baixar currículo" (onClick)="baixarCurriculo()"/>
+        </div>
+        </div>
+    
+    <div class="side">
+        <app-painel root="../../../assets/img/meinclui/home.png" (onClick)="redirecionarMeinclui()"/>
+        <app-painel root="../../../assets/img/agendeja/Home.png" (onClick)="redirecionarAgendeja()"/>
+        <app-painel root="../../../assets/img/pokedex/aa.png" (onClick)="redirecionarPokedex()"/>
+    </div>
+</div>
+</main>
